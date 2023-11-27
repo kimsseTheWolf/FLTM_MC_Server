@@ -1,0 +1,10 @@
+Tutorial-Messages:
+- '&2 --------- &aFloor Shuffle &2--------- '
+- '- You must stand on the color shown in your inventory!'
+Display-Name: Floor Shuffle
+Color-Mismatch-Damage: 9.5
+Performance-Mode: true
+Maps:
+  floorShuffleCompetitionMap:
+    Spawnpoint: world, -1202.5, 74, -95.5, 179.94647, 29.849833
+    Floor-Cuboid: world, -1228, 73, -101, -1202, 73, -77

@@ -1,0 +1,197 @@
+Load-Delay-Ticks: 10
+Empty-Chunk-Generator: false
+Check-For-Updates: true
+Check-For-General-Notifications: true
+Disable-Mob-Spawning-In-Arena-Worlds: true
+Achievements-Enabled: true
+Instant-Respawn: true
+use-UUID: false
+use-Vault: false
+Starting-Player-Coins: 100
+Coins-Per-Minigame-Win: 10
+Coins-Per-Arena-Win: 50
+Exp-Per-Minigame-Participate: 1
+Exp-Per-Minigame-Win: 4
+Exp-Per-Arena-Win: 15
+Time-Between-Rounds: 10
+Celebration-Length: 10
+Party-Invitation-Length: 30
+Lobby-Chat: false
+In-Game-Chat: false
+Spectators-Chat: true
+Load-Skins-On-Skulls: true
+Fireworks-Enabled: true
+Allow-Spectator-Join: true
+Display-Rank-In-Chat: true
+Display-Leading-Players-In-Arena-Scoreboard: true
+Show-Health-Below-Name: true
+Use-Gamemode-3-For-Spectators: true
+Enable-Lobby-Flight: false
+Update-Leaderboard-Every-Minutes: 15
+Selling-Returned-Value: 33%
+Broadcast-Time:
+- 60
+- 30
+- 15
+- 5
+- 4
+- 3
+- 2
+- 1
+Allowed-Commands:
+- pg
+- partygames
+- tell
+- help
+- r
+- msg
+- ban
+- kick
+- report
+Block-Behind-Join-Signs:
+  WAITING: STAINED_GLASS:5
+  STARTING: STAINED_GLASS:4
+  UNAVAILABLE: STAINED_GLASS:14
+Party:
+  Default-Slots: 3
+  Custom-Slots:
+  - '4 : partygames.party.slots.4'
+  - '5 : partygames.party.slots.5'
+  - '6 : partygames.party.slots.6'
+Bungee-Mode:
+  enabled: false
+  hub: lobby
+  restart-command: restart
+MySQL:
+  enabled: false
+  table: PartyGames
+  host: localhost
+  port: 3306
+  database: database
+  username: root
+  password: root
+  max_uuid_size: 36
+  query-url-properties: ''
+Ranks:
+  First-Rank-Exp: 20
+  Rank-Modifier: 1.35
+  Max-Rank: 25
+  Commands:
+  - '25 : broadcast %player% has reached the highest rank!'
+Prestige-Commands:
+- broadcast %player% has achieved prestige %prestige%!
+Saving-Task:
+  Enabled: true
+  Save-Every-Minutes: 10
+Coin-Modifiers:
+- '2 : partygames.vip'
+- '3 : partygames.ultravip'
+Trails:
+  size: 2
+  interval: 3
+  cooldown: 0.75
+Scoreboards:
+  Lobby:
+    enabled: true
+    animation:
+      enabled: false
+      interval: 8
+      frames:
+      - '&b&lPartyGames'
+      - '&e&lPartyGames'
+      - '&b&lPartyGames'
+      - '&a&lPartyGames'
+      - '&b&lPartyGames'
+      - '&c&lPartyGames'
+      - '&e&lP&b&lartyGames'
+      - '&b&lP&e&la&b&lrtyGames'
+      - '&b&lPa&e&lr&b&ltyGames'
+      - '&b&lPar&e&lt&b&lyGames'
+      - '&b&lPart&e&ly&b&lGames'
+      - '&b&lParty&e&lG&b&lames'
+      - '&b&lPartyG&e&la&b&lmes'
+      - '&b&lPartyGa&e&lm&b&les'
+      - '&b&lPartyGam&e&le&b&ls'
+      - '&b&lPartyGame&e&ls'
+  Arena:
+    enabled: true
+Titles:
+  enabled: true
+Custom-Maps:
+  Winner-Map:
+    enabled: true
+    texts:
+    - Congratulations
+    - '   On winning!!!'
+    image: https://i.imgur.com/FrgIjmJ.png
+  Loser-Map:
+    enabled: true
+    texts:
+    - '  Thank you for'
+    - '   Participation!'
+    image: ''
+Play-Again-Message:
+  enabled: true
+  header: '&b&m---------&e PartyGames &b&m---------'
+  content:
+  - ' '
+  - '          &6Click to play again!'
+  - ' '
+  footer: '&b&m-----------------------------'
+Active-Boosters: []
+Executed-Commands:
+  Arena-Countdown:
+  - broadcast Arena %arena% is about to start in %seconds% seconds!
+  Arena-Start: []
+  Arena-Stop: []
+  Player-Win: []
+  Player-Win-Minigame: []
+  Minigame-Start: []
+  Minigame-Finish: []
+Hotbar-Items:
+  Lobby:
+    Arena-Selector:
+      enabled: true
+      slot: 1
+    Shop:
+      enabled: true
+      slot: 7
+    Party:
+      enabled: true
+      slot: 5
+    Profile:
+      enabled: true
+      slot: 8
+    Quit:
+      enabled: true
+      slot: 9
+    Boosters:
+      enabled: true
+      slot: 2
+    Prestige:
+      enabled: true
+      slot: 3
+  Arena-Lobby:
+    Prestige:
+      enabled: true
+      slot: 3
+    Profile:
+      enabled: true
+      slot: 8
+    Quit:
+      enabled: true
+      slot: 9
+  Spectator:
+    Play:
+      enabled: true
+      slot: 1
+    Teleporter:
+      enabled: true
+      slot: 2
+    Profile:
+      enabled: true
+      slot: 8
+    Quit:
+      enabled: true
+      slot: 9
+Lobby: world, -1094.5, 64, -136.5, -88.54245, 0.6003323

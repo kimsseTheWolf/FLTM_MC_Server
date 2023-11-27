@@ -1,0 +1,7 @@
+Tutorial-Messages:
+- '&2 --------- &aQuake &2--------- '
+- '- Use your gun to get as many kills as possible!'
+Display-Name: Quake
+Round-Duration: 45
+Speed-Level: 5
+Shoot-Cooldown: 1.0

@@ -1,0 +1,26 @@
+[
+  {
+    "uuid": "52fc5179-c513-30d1-babc-d4a2ebd76c7f",
+    "name": "Block_Cat__",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "8bfc1470-72cc-3ce5-bc3c-6d693661027a",
+    "name": "kimsse",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c3595912-192f-3d4e-afba-5d83acbd9a8c",
+    "name": "Wanderer",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "4413f9d9-9254-37e7-a1c2-414ce338e08b",
+    "name": "w",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

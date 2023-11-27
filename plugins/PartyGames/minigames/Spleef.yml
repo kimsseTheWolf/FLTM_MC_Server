@@ -1,0 +1,13 @@
+Tutorial-Messages:
+- '&2 --------- &aSpleef &2--------- '
+- '- Use your shovel to break blocks below'
+- other players to eliminate them
+Display-Name: Spleef
+Shovel: 'DIAMOND_SPADE : 1 : enchant:DIG_SPEED:4'
+Round-Duration: 90
+Give-Snowballs-On-Break: true
+Maps:
+  spleefCompetitionArea:
+    Map-Cuboid: world, -1299, 66, -163, -1274, 88, -138
+    Spawnpoint: world, -1290.5, 78, -147.5, 35.918213, 32.399536
+    Floor-Cuboid: world, -1295, 77, -160, -1277, 77, -142

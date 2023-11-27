@@ -1,0 +1,12 @@
+enabled: true
+lobby-countdown: 30
+lobby-countdown-shortening:
+  min-players: 4
+  shorten-to: 10
+max-minigame-rounds: 22
+minigames:
+- spleef
+world: world
+min-players: 2
+max-players: 10
+Lobby: world, -1230.5, 71, -217.5, -173.65112, 9.750267

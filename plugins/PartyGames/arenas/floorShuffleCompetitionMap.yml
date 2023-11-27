@@ -1,0 +1,12 @@
+enabled: true
+lobby-countdown: 30
+lobby-countdown-shortening:
+  min-players: 4
+  shorten-to: 10
+max-minigame-rounds: 22
+minigames:
+- floorshuffle
+world: world
+min-players: 2
+max-players: 20
+Lobby: world, -1162.5, 64, -166.5, 91.81006, 19.64911
