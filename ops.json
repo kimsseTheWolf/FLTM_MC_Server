@@ -22,5 +22,11 @@
     "name": "w",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d00baddd-89b2-3d6d-91ac-8a6ac0858dad",
+    "name": "Block_Cat_",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
